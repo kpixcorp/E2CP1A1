@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+p {
+	text-align: center;
+}
+
+.ribbon {
+	position: relative;
+	right: 225px;
+	width: 250px;
+}
+
+.ofer2 {
+	position: relative;
+}
+
+.baterias {
+	position: absolute;
+	right: 49%;
+}
+
+.despacho {
+	position: absolute;
+	right: 50%;
+	top: 149.9px;
+	width: 52px;
+}

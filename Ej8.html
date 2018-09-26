@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Box model</title>
+	<style type="text/css" media="screen">
+		body, html {
+			margin: 0;
+		}
+
+		ul.menu {
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+
+		ul.menu li {
+			box-sizing: border-box;
+			background: olive;
+			width: 25%;
+			float: left;
+		}
+
+		ul.menu li a {
+			color: #FFF;
+			text-decoration: none;
+			display: block;
+			padding: 10px;
+		}
+
+		ul.menu li a:hover {
+			background: #000;
+		}
+
+		.parrafo {
+			display: inline-block;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<ul class="menu">
+		<li><a href="#">Item-1</a></li>
+		<li><a href="#">Item-2</a></li>
+		<li><a href="#">Item-3</a></li>
+	</ul>
+	<div class="parrafo">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sint nesciunt ratione vitae corporis, culpa iusto nemo temporibus eos rerum facere accusamus amet modi, incidunt eius doloremque accusantium, cupiditate quaerat!
+		</p>
+	</div>
+</body>
+</html>

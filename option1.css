@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.titulo {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 0;
+}
+
+.menu {
+	background-color: #c8c8c8;
+	width: 25%;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	padding: 3%;
+
+}
+
+ul {
+	font-size: 85%;
+}
+
+.subti {
+	width: 75%;
+	height: 20%;
+	float: left;
+	margin-top: 0;
+	padding: 1%;
+	box-sizing: border-box;
+}
+
+.clearfix {
+	clear: left;
+}
+
+.derechos {
+	background-color: #a9a9a9;
+	color: white;
+	text-align: center;
+	font-size: 70%;
+}
+

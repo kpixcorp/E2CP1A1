@@ -1,0 +1,44 @@
+	body {
+		margin: 0;
+	}
+
+	.cajitas {
+		box-sizing: border-box;
+		width: 25%;
+		float: left;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.cajitas p {
+		text-align: justify;
+	}
+	
+	.cajitas img {
+		width: 50%;
+	}
+
+	.navbar {
+		box-sizing: border-box;
+		width: 100%;
+		position: fixed;
+		background-color: #409f40;
+		margin: 0px;
+		top: 0px;
+		padding: 2px;
+
+	}
+
+	.navbar ul {
+		color: white;
+		padding: 0;
+		margin: 0px;
+		padding: 2px;
+		list-style: none;
+	}
+
+	.navbar li {
+		float: left;
+		margin: 5px;
+
+		}
