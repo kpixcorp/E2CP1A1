@@ -2,28 +2,34 @@ body {
 	margin: 0;
 }
 
-p {
-	text-align: center;
+.oferta {
+	position: relative;
+
+}
+
+.lente {
+	position: absolute;
+	right: 50%;
+
 }
 
 .ribbon {
-	position: relative;
-	right: 225px;
-	width: 250px;
+	position: absolute;
+	right: 50%;
+	top: 35px;
+	width: 220px;
 }
 
 .ofer2 {
 	position: relative;
-}
-
-.baterias {
-	position: absolute;
-	right: 49%;
+	width: 219px;
+	height: 257px;
+	left: 40%;
 }
 
 .despacho {
 	position: absolute;
-	right: 50%;
-	top: 149.9px;
+	right: 13px;
+	bottom: 58px;
 	width: 52px;
 }
